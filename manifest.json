@@ -4,7 +4,19 @@
   "name": "CoinBlock",
   "version": "1.0",
 
-  "description": "Adds a red border to all webpages matching mozilla.org.",
+  "description": "Blocks coinhive miners",
+
+  "icons": {
+    "48": "icons/coinblock-48.png",
+    "96": "ircons/coinblock-96.png"
+
+  },
+
+  "browser_action": {
+    "default_icon": "icons/coinblock-48.png",
+    "default_title": "CoinBlock",
+    "default_popup": "popup/popup.html"
+  },
 
   "content_scripts": [
     {
