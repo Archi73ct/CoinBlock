@@ -1,11 +1,15 @@
-var active_default;
-var active = active_default;
+var active_default = false;
+var active = null;
 
 
 function updateState(message, sender, sendResponse) {
 	if(message.cmd == "switch") {
+
 		if(active == true){ active = false; }
-		if(active == false) { active = true; }
+
+		else if(active == false) { active = true; }
+
+		else{active=active_default;}
 	}
 
 	if(message.cmd == "requeststate"){

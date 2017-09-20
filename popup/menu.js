@@ -1,5 +1,5 @@
 function checkState(message){
-	console.log("Respone recieved");
+	console.log("Respone recieved: " + message.response);
 	if(message.response == true) {
 		document.getElementById('activator').style.color="white";
 	}
