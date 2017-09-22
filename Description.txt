@@ -1,0 +1,1 @@
+Fixed blocking issue, now using webrequest intercepting on all scripts originating from coinhive,
