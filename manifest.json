@@ -1,8 +1,8 @@
 {
 
   "manifest_version": 2,
-  "name": "CoinBlock",
-  "version": "1.0",
+  "name": "CoinBlock2",
+  "version": "2.0",
 
   "description": "Attempts to block cryptominer hosted on CoinHive",
 
@@ -15,23 +15,15 @@
   "permissions": [
     "webRequest",
     "webRequestBlocking",
-    "https://coin-hive.com"
+    "<all_urls>"
   ],
 
   "browser_action": {
     "default_icon": "icons/coinblock-48.png",
-    "default_title": "CoinBlock",
-    "default_popup": "popup/popup.html"
+    "default_title": "CoinBlock"
   },
 
   "background": {
     "scripts": ["background.js"]
-  },
-
-  "content_scripts": [
-    {
-      "matches": ["<all_urls>"],
-      "js": ["blocker.js"]
-    }
-  ]
+  }
 }
