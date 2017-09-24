@@ -1,4 +1,24 @@
+@font-face
+{
+    font-family: Roboto-Title;
+    src: url('../Resources/Roboto-Bold.ttf')
+}
+@font-face
+{
+    font-family: Roboto;
+    src: url('../Resources/Roboto-Medium.ttf')
+}
+
+
 body {
-    width: 300px;
-    height: 500px;
+    background-color: #2a2a2e;
+    width: 200px;
+    height: 300px;
+    font-family: Roboto;
+}
+
+h1 {
+    color: #f9f9fa;
+    font-family: Roboto-Title;
+    text-align: center;
 }
