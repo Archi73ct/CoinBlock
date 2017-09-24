@@ -20,7 +20,15 @@
 
   "browser_action": {
     "default_icon": "icons/coinblock-48.png",
-    "default_title": "CoinBlock"
+    "default_title": "CoinBlock",
+    "browser_style": true,
+    "default_popup": "Popup/PopupMenu.html"
+  },
+
+
+  "options_ui": {
+    "page": "Settings/CoinBlockSettings.html",
+    "browser_style": true
   },
 
   "background": {
