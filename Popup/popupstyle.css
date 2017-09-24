@@ -22,3 +22,10 @@ h1 {
     font-family: Roboto-Title;
     text-align: center;
 }
+
+#counter {
+    width: 96px;
+    height: 96px;
+    color: #f9f9fa;
+    text-align: center;
+}
