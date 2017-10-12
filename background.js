@@ -13,8 +13,3 @@ browser.webRequest.onBeforeRequest.addListener(
 	["blocking"]
   );
 
-function switch_active () {
-	
-}
-
-browser.browserAction.onClicked.addListener(switch_active);
