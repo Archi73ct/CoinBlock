@@ -1,15 +1,21 @@
 var active = true;
 var pattern = "https://coin-hive.com/*";
 
-function redirect(requestDetails) {
-	return {
-		cancel: true
-	};
+function Blocked(requestDetails) {
+	if(active){
+		return {
+			cancel: true
+		};
+	} else {
+		return {
+			cancel: false
+		};
+	}
 }
 
 browser.webRequest.onBeforeRequest.addListener(
-	redirect,
+	Blocked,
 	{urls:[pattern], types:["script"]},
 	["blocking"]
-  );
+);
 
