@@ -1,8 +1,8 @@
 {
 
   "manifest_version": 2,
-  "name": "CoinBlock2",
-  "version": "2.1",
+  "name": "CoinBlock",
+  "version": "2.1.1",
 
   "description": "Attempts to block cryptominer hosted on CoinHive",
 
