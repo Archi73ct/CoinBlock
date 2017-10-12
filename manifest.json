@@ -13,11 +13,13 @@
   },
 
   "permissions": [
+    "storage",
+    "notifications",
     "webRequest",
     "webRequestBlocking",
     "<all_urls>"
   ],
-  
+
   "options_ui": {
     "page": "Settings/CoinBlockSettings.html",
     "browser_style": true
