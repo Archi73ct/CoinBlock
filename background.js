@@ -1,5 +1,5 @@
 var active = true;
-var pattern = "https://coin-hive.com/*";
+var pattern = ["https://coin-hive.com/*","https://crypto-loot.com/*"];
 
 var defaultCounter = {
 	count: 0
@@ -42,7 +42,7 @@ function Blocked(requestDetails) {
 
 browser.webRequest.onBeforeRequest.addListener(
 	Blocked,
-	{urls:[pattern], types:["script"]},
+	{urls:pattern, types:["script"]},
 	["blocking"]
 );
 

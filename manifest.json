@@ -2,7 +2,7 @@
 
   "manifest_version": 2,
   "name": "CoinBlock",
-  "version": "2.1.1",
+  "version": "2.1.2",
 
   "description": "Attempts to block cryptominer hosted on CoinHive",
 
